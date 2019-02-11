@@ -61,8 +61,6 @@ def get_average_age_for_season(data,season)
     average_age = (total_age/current_contestants).round(0)
 end
 
-
-
 # Failures:
 #   1) bachelor #get_contestant_name returns 'Carly Waddel' when passed data and the string 'Cruise Ship Singer'
 #      Failure/Error: expect(get_contestant_name(data, "Cruise Ship Singer")).to eq("Carly Waddell")
